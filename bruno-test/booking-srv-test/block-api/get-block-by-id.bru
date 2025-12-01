@@ -1,0 +1,15 @@
+meta {
+  name: get-block-by-id
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:8080/api/blocks/:blockId
+  body: none
+  auth: none
+}
+
+params:path {
+  blockId: 8387de88-e822-4b67-8961-e1640303f885
+}

@@ -1,0 +1,25 @@
+meta {
+  name: update-booking
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://localhost:8080/api/bookings/79c16f7b-6540-4982-abec-31a263d60637
+  body: json
+  auth: none
+}
+
+body:json {
+    {
+      
+    "bookingId": "79c16f7b-6540-4982-abec-31a263d60637",
+    "guestDetails": "123",
+    "propertyId": 1,
+    "startDate": "2029-01-02",
+    "endDate": "2029-01-03",
+    "cancelled": false
+      
+    
+    }
+}

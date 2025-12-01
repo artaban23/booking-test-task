@@ -1,0 +1,20 @@
+meta {
+  name: create-booking
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/api/bookings
+  body: json
+  auth: none
+}
+
+body:json {
+      {
+        "propertyId": 1,
+        "guestDetails": "we",
+        "startDate": "2029-01-02",
+        "endDate": "2029-01-03"
+      }
+}

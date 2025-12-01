@@ -1,0 +1,15 @@
+meta {
+  name: delete-block-by-id
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:8080/api/blocks/:blockId
+  body: none
+  auth: none
+}
+
+params:path {
+  blockId: 19cd5250-3ee1-4d26-8776-9f85d6ef440a
+}

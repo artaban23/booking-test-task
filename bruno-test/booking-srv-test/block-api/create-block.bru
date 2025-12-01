@@ -1,0 +1,20 @@
+meta {
+  name: create-block
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/api/blocks
+  body: json
+  auth: none
+}
+
+body:json {
+      {
+        "propertyId": 1,
+        "reason": "r3",
+        "startDate": "2023-12-19",
+        "endDate": "2023-12-20"
+      }
+}

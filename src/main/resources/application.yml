@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: booksrv
+  
+server:
+  port: 8080

@@ -1,0 +1,22 @@
+meta {
+  name: update-block
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:8080/api/blocks/ec97eb93-0a56-4137-a41d-ca4cad60b20a
+  body: json
+  auth: none
+}
+
+body:json {
+    {
+    "blockId": "ec97eb93-0a56-4137-a41d-ca4cad60b20a",
+    "reason": "r33",
+    "propertyId": 1,
+    "startDate": "2023-12-19",
+    "endDate": "2023-12-20"
+    }
+  
+}
