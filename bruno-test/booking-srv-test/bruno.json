@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "name": "booking-srv-test",
+  "name": "booking-srv-test-v5",
   "type": "collection",
   "ignore": [
     "node_modules",
